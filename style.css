@@ -84,6 +84,7 @@ html, body {
   width: 45%;
   height: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -114,6 +115,26 @@ html, body {
   position: absolute;
   transform: translateY(-5vh) scale(2.3);
   transition: 0.5s ease-in-out;
+}
+
+.detail{
+  position: absolute;
+  margin-top: 400px;
+}
+
+.founder-name{
+  text-align: center;
+  margin-top: 1.5vw;
+  font-size: 2vw;
+  font-weight: 700;
+  color: #111;
+}
+
+.founder-role{
+  text-align: center;
+  color: #666;
+  font-size: 1.1vw;
+  margin-top: 0.3vw;
 }
 
 .img-container:hover .circle img{
